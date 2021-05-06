@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="user_Registration.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="Bracelet" Value="Bracelet">
+                        <asp:MenuItem Text="Add" Value="Add" NavigateUrl="~/Addadmin.aspx">
+                        </asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <StaticMenuStyle BackColor="#FFFF99" HorizontalPadding="100px" />
+                <StaticSelectedStyle BackColor="#FFFF99" />
+            </asp:Menu>
+        
+
+
+        <br />
+        
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>

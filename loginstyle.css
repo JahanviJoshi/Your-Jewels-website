@@ -1,0 +1,15 @@
+﻿body 
+{
+     margin:0;
+     padding:0;
+
+}
+section
+{
+    width:vw;
+    height:50vw;
+    background-image:url("images/loginbackground.jpg");
+    display:inline-grid;
+    justify-content:flex-start;
+    align-items:stretch;
+}

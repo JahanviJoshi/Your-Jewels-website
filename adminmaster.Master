@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminmaster.master.cs" Inherits="user_Registration.adminmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="Gold" Value="Gold">
+                        <asp:MenuItem Text="Bracelets" Value="Bracelets">
+                            <asp:MenuItem Text="Add" Value="Add" NavigateUrl="~/bu.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Update" Value="Update"></asp:MenuItem>
+                            <asp:MenuItem Text="Delete" Value="Delete"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <StaticMenuStyle BackColor="#FFFF99" HorizontalPadding="100px" />
+                <StaticSelectedStyle BackColor="#FFFF99" />
+            </asp:Menu>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        
+            <br />
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

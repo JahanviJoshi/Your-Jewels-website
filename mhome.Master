@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mhome.master.cs" Inherits="user_Registration.mhome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style6 {
+            width: 1316px;
+            height: 247px;
+            margin: 0px 0px 1px 0px;
+        }
+        .auto-style8 {
+            height: 23px;
+            width: 1139px;
+        }
+        .auto-style9 {
+            width: 1139px;
+        }
+        .auto-style10 {
+            width: 1139px;
+            height: 247px;
+        }
+        .auto-style11 {
+            height: 5px;
+            width: 1139px;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style8">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="loginpage.aspx">Login</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="AddToCart.aspx">Addtocart</asp:HyperLink>
+                &nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/AdminLog.aspx">Admin</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style10">
+                    <img class="auto-style6" src="images/mlogo.jpg"/></td>
+            </tr>
+            <tr>
+                <td class="auto-style11">
+
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticSubMenuIndent="16px" BackColor="Black" BorderStyle="None" DynamicHorizontalOffset="1" OnMenuItemClick="Menu1_MenuItemClick">
+            
+            <StaticMenuItemStyle BackColor="White" ForeColor="Black" />
+            <DynamicHoverStyle BackColor="#FFFFCC" />
+            <DynamicMenuItemStyle BackColor="#FF9966" ForeColor="Black" />
+            
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx">
+                </asp:MenuItem>
+                <asp:MenuItem Text="All Jewellery" Value="All Jewellery" NavigateUrl="~/Malljewels.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Gold" Value="Gold" >
+                    <asp:MenuItem Text="Rings" Value="Rings" NavigateUrl="~/Mringsgold.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Bracelets" Value="Bracelets" NavigateUrl="~/Mbraceletgold.aspx"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mchaingold.aspx" Text="Chains" Value="Chains"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mmangalsutra.aspx" Text="Mangalsutra" Value="Mangalsutra"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mearringgold.aspx" Text="Earrings" Value="Earrings"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mneckgold.aspx" Text="Necklace" Value="Necklace"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mnosepingold.aspx" Text="Nosepin" Value="Nosepin"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mpendantgold.aspx" Text="Pendant" Value="Pendant"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Diamond" Value="Diamond">
+                    <asp:MenuItem NavigateUrl="~/MDrings.aspx" Text="Rings" Value="Rings"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdearring.aspx" Text="Earrings" Value="Earrings"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdbracelet.aspx" Text="Bracelets" Value="Bracelets"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdnosepin.aspx" Text="Nosepin" Value="Nosepin"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdnecklace.aspx" Text="Nackalce" Value="Nackalce"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdmangalsutra.aspx" Text="Mangalsutra" Value="Mangalsutra"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Mdpendant.aspx" Text="Pendant" Value="Pendant"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Renting" Value="New Item" NavigateUrl="~/MRent.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Pre-design" Value="Contact us" NavigateUrl="~/Mpreview.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Selfmaking" Value="About us" NavigateUrl="~/Selfmaking.aspx"></asp:MenuItem>
+                    
+                <asp:MenuItem NavigateUrl="~/Contact Us.aspx" Text="ContactUs" Value="ContactUs"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AboutUs.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/images/search.jpg" Text="Search" Value="Search" NavigateUrl="~/search.aspx"></asp:MenuItem>
+                    
+            </Items>
+            <StaticHoverStyle BackColor="#FFCCFF" />
+            <staticmenuitemstyle horizontalpadding="20px" VerticalPadding="0px" Font-Bold="True" ForeColor="#FF5050"/>
+            <StaticMenuStyle HorizontalPadding="5px" VerticalPadding="5px" />
+            <StaticSelectedStyle BackColor="White" BorderStyle="None" HorizontalPadding="10px" VerticalPadding="20px" />
+        </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

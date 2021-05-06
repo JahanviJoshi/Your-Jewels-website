@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/AR1.jpg</ImageUrl>
+    <AlternateText>hi</AlternateText>
+    <NavigateUrl>Mbraceletgold.aspx</NavigateUrl>
+  
+    <Impression>30</Impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AR2.jpg</ImageUrl>
+    <AlternateText>a</AlternateText>
+    <NavigateUrl>MDrings.aspx</NavigateUrl>
+    
+    <Impression>30</Impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AR3.jpg</ImageUrl>
+    <AlternateText>b</AlternateText>
+    <NavigateUrl>MRent.aspx</NavigateUrl>
+    
+    <Impression>30</Impression>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ad4.jpg</ImageUrl>
+    <AlternateText>c</AlternateText>
+    <NavigateUrl>Mneckgold.aspx</NavigateUrl>
+    
+    <Impression>30</Impression>
+  </Ad>
+</Advertisements>

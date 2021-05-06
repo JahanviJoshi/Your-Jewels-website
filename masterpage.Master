@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="user_Registration.masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title></title>
+    <style>
+        body
+         {
+            background-image:url("images/ad1.jpg");
+            background-size:cover;
+            background-position:center;
+            background-repeat: no-repeat;
+            
+
+
+        }
+        .auto-style1 {
+            width: 100%;
+            height: 653px;
+        }
+        .auto-style2 {
+            height: 39px;
+        }
+        .auto-style3 {
+            height: 63px;
+        }
+        .auto-style4 {
+            height: 77px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-repeat:no-repeat; background-size:cover;background-position:center">
+         
+        <table class="auto-style1" >
+            <tr>
+                <td class="auto-style2">
+             
+                    <asp:Label ID="Label1" runat="server" BackColor="White" Font-Bold="True" Text="YOUR JEWEL'S" Font-Size="XX-Large"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    <asp:Label ID="Label2" runat="server" Text="Hello" Font-Size="XX-Large" ForeColor="Black"></asp:Label>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="False" Font-Size="XX-Large">Login</asp:HyperLink>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" Font-Size="XX-Large">Logout</asp:LinkButton>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/index.aspx" Font-Size="XX-Large">Register</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+            </div>
+    </form>
+</body>
+</html>

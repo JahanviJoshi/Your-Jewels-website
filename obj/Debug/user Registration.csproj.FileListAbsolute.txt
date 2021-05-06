@@ -1,0 +1,54 @@
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\user Registration.dll.config
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\user Registration.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\user Registration.pdb
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Antlr3.Runtime.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\EntityFramework.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\EntityFramework.SqlServer.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Google.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Web.Infrastructure.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Newtonsoft.Json.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Owin.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\System.Web.Optimization.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\System.Web.Providers.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\WebGrease.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\System.Web.Optimization.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Antlr3.Runtime.pdb
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Newtonsoft.Json.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\EntityFramework.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\EntityFramework.SqlServer.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\System.Web.Providers.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Google.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\obj\Debug\user Registration.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\obj\Debug\user Registration.dll
+c:\users\admin\documents\visual studio 2013\Projects\user Registration\user Registration\obj\Debug\user Registration.pdb
+C:\Users\admin\Documents\Visual Studio 2013\Projects\user Registration\user Registration\obj\Debug\user_Registration.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2013\Projects\user Registration\user Registration\obj\Debug\user Registration.csproj.GenerateResource.Cache
